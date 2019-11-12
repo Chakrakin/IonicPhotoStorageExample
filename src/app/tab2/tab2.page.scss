@@ -1,0 +1,27 @@
+ion-slides {
+  height: auto;
+}
+
+.swiper-wrapper {
+  height: 95%;
+}
+
+.swiper-slide{
+  overflow-y: scroll;
+  display: block;
+}
+
+ion-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 !important;
+  width: 500px;
+}
+
+ion-content {
+  background-color: lightgray;
+}
+
+ion-content ion-card {
+  width: 100%;
+}
